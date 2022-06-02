@@ -3,6 +3,7 @@
 }
 
 :root{
+    --secondary:rgba(146,204,206,1);
     --tertiary: rgba(49,52,61,1);
 
 }
@@ -15,4 +16,13 @@ header{
     padding: 15px 6% 15px 0;
     flex-direction: row;
     background-color: var(--tertiary);
+}
+
+header h1{
+    color: var(--tertiary);
+    background-color: var(--secondary);
+    padding: 5px 1% 5px 6%;
+    margin: 0;
+    line-height: 1;
+
 }
