@@ -26,3 +26,9 @@ header h1{
     line-height: 1;
 
 }
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
