@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+:root{
+    --tertiary: rgba(49,52,61,1);
+
+}
+
 header{
     display: flex;
     flex-wrap: wrap;
@@ -9,4 +14,5 @@ header{
     align-items: center;
     padding: 15px 6% 15px 0;
     flex-direction: row;
+    background-color: var(--tertiary);
 }
